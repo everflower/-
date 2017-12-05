@@ -1,0 +1,267 @@
+
+
+
+
+body{
+    font-size:12px;
+    font-family: Arial;
+}
+.redColor{
+    color:#C00000!important;
+
+}
+a:hover{
+    color:#C00000;
+}
+div.ladyPictureTop{
+    text-align: center;
+}
+div.picture1{
+    float:left;
+    padding:50px;
+    margin-left:100px;
+   
+    
+}
+img.meiNv{
+  width:400px;
+  padding:20px;
+  border:1px solid #f0e4e4;
+  
+
+}
+img.smallImage{
+  width:60px;
+  border:2px solid white;
+
+}
+img.smallImage:hover{
+
+border:2px solid black;
+}
+div.lotsPicture{
+    padding-top:20px;
+    padding-left:40px;
+
+}
+
+div.productSalePingJia{
+    padding:10px;
+    border-top:1px dotted #c9c9c9;
+    border-bottom:1px dotted #c9c9c9;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+div.productSalePingJia div{
+    width:49%;
+    text-align: center;
+}
+div.productSalePingJia div:first-child{
+    border-right:1px solid  #c9c9c9;
+    
+}
+
+div.serviceCommitment {
+    margin: 20px 0px;
+    
+}
+span.serviceCommitmentLink a{
+    padding:0px 2px ;
+    color: #666666;
+}
+div.buyDiv button {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 180px;
+    height: 40px;
+}
+button.buyButton {
+    border: 1px solid #C40000;
+    background-color: #FFEDED;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #C40000;
+    font-family: arial;
+}
+
+button.addCartButton {
+    border: 1px solid #C40000;
+    background-color: #C40000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+    font-family: arial;
+}
+
+div.picture2{
+    
+    
+    width:500px;
+    box-sizing: border-box;
+    padding:0 20;
+    float:left;
+    padding-top:50px;
+
+  
+}
+div.productTitle{
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+}
+div.productxiaoTitle{
+    color: #DD2727;
+    font-size: 12px;
+    padding-top:1.5px;
+    padding-bottom:8px;
+}
+div.juHuaSuan{
+    background-color:#2DA77A;
+    color:white;
+    line-height:40px;
+    text-align: center;
+}
+span.juHuaSuanBig{
+    font-size:18px;
+    font-weight:bold;
+}
+div.shoppingDiv{
+    padding:15px 9px 9px 9px;
+    
+}
+span.juHuaSuanTime{
+    color:#FFC057;
+    font-weight:bold;
+}
+div.productPriceDiv{
+    background-image:url(http://how2j.cn/tmall/img/site/priceBackground.png);
+    height:102px;
+    background-color:#666666;
+    color:#666666;
+}
+span.priceZi{
+    color: #999999;
+    display: inline-block;
+    width: 68px;
+    padding-left:9px;
+}
+span.productNumberSettingDiv input
+{
+    width:43px;
+    height:32px;
+    
+}
+span.arrow1{
+    
+    vertical-align: top;
+   
+    display: inline-block;
+    width: 22px;
+    height: 32px;
+    margin-left:5px;
+}
+
+
+a.increaseNumber{
+   
+    border:1px solid rgb(104, 101, 101);
+    vertical-align: top;
+}
+span.arrow1 a{
+    width:22px;
+}
+/* 
+span.updown{
+   
+   
+
+}
+span.updown imge{
+   
+    
+} */
+span.updownmiddle{
+    display:block;
+}
+
+a.decreaseNumber{
+
+    border:1px solid rgb(104, 101, 101);
+    
+}
+/* span.downup{
+    display:block;
+} */
+
+
+
+div.productReviewDiv{
+   
+    /* border:1px solid black; */
+    
+    float: left;
+}
+
+div.changeDiv{
+
+ border:1px solid red;
+ width:760px;
+ margin-left:250px;
+}
+a.selected{
+    border-left: 1px solid #cfbfb1;
+    border-right: 1px solid #cfbfb1;
+    color: #b10000;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 46px;
+    width: 90px;
+    text-align: center;
+    position: relative;
+}
+a.productMark{
+    padding: 0px 20px;
+    border-right: 1px dotted #D2D2D2;
+    color: #333333;
+}
+
+div.productParamterPart{
+    margin-left:250px;
+    float:left;
+    border: 1px solid #DFDFDF;
+    padding: 40px;
+    margin-right:260px;
+}
+div.productParamter {
+    color: #999999;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+div.productParamterList span {
+    display: block;
+    width: 280px;
+    float: left;
+    padding: 8px 0px;
+    color: #666666;
+    
+}
+div.productDetailImagesPart{
+    margin-left:250px;
+}
+div.productReviewItem{
+    padding-left:160px;
+    margin-top:10px;
+    padding-top:5px;
+    border-top:1px dotted black;
+    border-bottom:1px dotted black;
+    
+    
+    box-sizing: border-box;
+}
+
+
