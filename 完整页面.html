@@ -10,11 +10,45 @@
       var length=$(".iframeimportent").text().length();
       $(".iframeimportent").height=length+20+"px";
     </script> -->
+    <style>
+      body{
+        margin:0px;
+      }
+    
+    </style>
 </head>
+
+<script>
+      function  iframeLoad(){
+      document.getElementById("external-frame").height=0;  
+      document.getElementById("external-frame").height=document.getElementById("external-frame").contentWindow.document.body.scrollHeight;  
+      
+      
+      };
+
+      window.onload=function(){
+      var tp=document.getElementById("top");
+      window.onsroll=function(){
+       tp.style.top=(document.docuemntElement.scrollTop||document.body.scrollTop)+"px";
+      }
+    };
+
+     
+</script>
+
+<!-- <script>
+  window.onload=function(){
+  var tp=document.getElementById("top");
+  window.onsroll=function(){
+   tp.style.top=(document.docuementElement.scrollTop||document.body.scrollTop)+"px";
+  };
+};
+
+</script> -->
 
 <iframe name="iframe1" src="置顶导航栏.html"  marginwidth=0 marginheight=0 width="100%" height=28px frameborder=no></iframe>
 <iframe name="iframe2" src="搜索栏.html"  marginwidth=0 marginheight=0 width="100%"   scrolling=no  frameborder=no></iframe>
-<iframe name="iframe3" class="iframeimportent" src="名媛.html" frameborder=no marginwidth=0 marginheight=0 width="100%" height="4200px" scrolling=no  >
+<iframe name="iframe3" id="external-frame"  class="iframeimportent" src="名媛.html" frameborder=no marginwidth=0 marginheight=0 width="100%" scrolling=no style="min-height:1200px ;" >
 
 
 </iframe>

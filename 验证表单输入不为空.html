@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload=function(){
+        var _str=document.getElementById("str");
+        var _isContent=document.getElementById("isContent");
+        _isContent.onclick=function(){
+           if(!_str.value.replace(/^(\s|\u00A0)+|(\s|\u00A0)+$/g,""))
+           alert("输入为空");
+           else
+           alert("你的输入不为空");
+        }
+
+        }; 
+    </script>
+</head>
+<body>
+    <h2>测试去除字符串左右两边的空格</h2>
+    <input type="text" value="     过滤空格" id="str" />
+    <input type="button" value="验证是否为空" id="isContent" />
+</body>
+</html>

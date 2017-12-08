@@ -7,7 +7,16 @@
     <link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="置顶导航栏.css"/>
 </head>
-<nav class="top">
+<script>
+      window.onload=function(){
+      var tp=document.getElementById("top");
+      window.onsroll=function(){
+       tp.style.top=(document.docuementElement.scrollTop||document.body.scrollTop)+"px";
+      }
+    };
+
+</script>
+<nav class="top" id="top">
     <a href="nowhere"><span  class="glyphicon glyphicon-home redColor" ></span>天猫首页</a>
     <span>喵，欢迎来到天猫</span>
     <a href="nowhere">请登录</a>
